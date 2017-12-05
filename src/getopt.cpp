@@ -18,8 +18,10 @@
 ******************************************************************/
 
 #include "getopt.h"
-#include <windows.h>
-
+#include <iostream>
+#include <stdio.h>
+#include <string.h>
+using namespace std;
 char* optarg = NULL;
 int optind = 1;
 

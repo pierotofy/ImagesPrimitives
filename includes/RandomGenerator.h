@@ -2,6 +2,8 @@
 #pragma once
 #include <random>
 #include <chrono>
+#include <climits>
+
 class RandomGenerator {
 private:
   mutable std::uniform_int_distribution<int> uniform_dist{0, INT_MAX};

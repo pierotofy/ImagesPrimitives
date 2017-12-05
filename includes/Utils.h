@@ -4,7 +4,7 @@
 #include <memory>
 #include <vector>
 #include "Scanline.h"
-static class Utils {
+class Utils {
 public:
 
   static void Swap(int& a, int& b) {

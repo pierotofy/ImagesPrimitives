@@ -21,4 +21,4 @@ add_compile_options(
 
 # main.cpp
 add_executable(main ${SOURCES})
-target_link_libraries(main EASY_BMP)
+target_link_libraries(main EASY_BMP pthread)
